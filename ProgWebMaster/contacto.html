@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProgWebMaster</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/script.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <header id="Cabecera">
+            <h1> ProgWebMaster </h1>
+            <img id="Logo" src="assets/images/logo.png" alt="Logo">
+        </header>
+        <nav id="Menu">
+            <ul>
+                <li> <a href="index.html">Inicio</a> </li>
+                <li> <a href="html.html">HTML</a> </li>
+                <li> <a href="css.html">CSS</a> </li>				
+				<li> <a href="javascript.html">Javascript</a> </li>
+                <li> <a href="login.html">Login</a> </li>
+                <li> <a href="registro.html">Registro</a> </li>
+                <li> <a href="contacto.html">Contacto</a> </li>
+                <li> <a href="nosotros.html">Nosotros</a> </li> 
+
+            </ul>
+        </nav>
+    </header>
+
+    <section id="Cuerpo">
+        <section id="Contenido">
+            <h2>Contacto y Ayuda</h2>
+            <p>¿Tienes alguna pregunta o comentario sobre ProgWebMaster? ¡No dudes en contactarnos!</p>
+            <form id="formulario">
+                <input type="text" id="nombreContacto" placeholder="Nombre" class = "Campos" required>
+                <input type="email" id="emailContacto" placeholder="Correo Electrónico" class = "Campos" required>
+                <textarea id="mensajeContacto" placeholder="Mensaje" class="textBox" required></textarea>
+                <button  class = "boton" type="button" onclick="enviarMensaje()">Enviar Mensaje</button>
+            </form>
+        
+        </section>
+
+        <aside id="Panelcontacto">
+            <h2>¿Necesitas Ayuda?</h2>
+            <p>Si necesitas asistencia adicional, no dudes en contactarnos a través del formulario o enviando un correo electrónico a info@progwebmaster.com.</p>
+            <img id="imagenContacto" src="assets/images/imgcontenidoregistro.png" alt="imagenContacto">
+
+        </aside>
+    </section>
+
+    <footer id="Pie">
+        <h3>ITLA | Desarrollo de Software | Braulio Peralta 2022-0606</h3>
+        <p>&copy; Credenciales - Derechos Reservados | Santo Domingo,
+            <script>document.write(new Date().getFullYear())</script>
+        </p>
+    </footer>
+</body>
+
+</html>

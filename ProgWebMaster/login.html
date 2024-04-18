@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProgWebMaster</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/script.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <header id="Cabecera">
+            <h1> ProgWebMaster </h1>
+            <img id="Logo" src="assets/images/logo.png" alt="Logo">
+
+        </header>
+        <nav id="Menu">
+            <ul>
+                <li> <a href="index.html">Inicio</a> </li>
+                <li> <a href="html.html">HTML</a> </li>
+                <li> <a href="css.html">CSS</a> </li>				
+				<li> <a href="javascript.html">Javascript</a> </li>
+                <li> <a href="login.html">Login</a> </li>
+                <li> <a href="registro.html">Registro</a> </li>
+                <li> <a href="contacto.html">Contacto</a> </li>
+                <li> <a href="nosotros.html">Nosotros</a> </li> 
+
+				
+            </ul>
+        </nav>
+        <section id="Cuerpo">
+            <section id="Contenido">
+                <h2>Inicio de sesión </h2>
+                <form id="formulario">
+
+                    <input type="email" id="emailLogin" placeholder="Correo Electrónico" class = "Campos" required>
+                    <input type="password" id="passwordLogin" placeholder="Contraseña" class="Campos" required>
+                    <button  class = "boton" type="button" onclick="login()">Iniciar Sesión</button>
+                </form>
+            
+                <img id="imagenRegistro" src="assets/images/imgcontenidoregistro.png" alt="imagenRegistro">
+
+
+            </section>
+
+            <aside id="Panellogin">
+                <img id="imagenpanel" src="assets/images/imagenpanellogin.png" alt="imagenpanel">
+            </aside>
+        </section>
+
+        <section>
+            <footer id="Pie">
+                <h3>ITLA | Desarrollo de Software | Braulio Peralta 2022-0606</h3>
+                <p>&copy; Credenciales - Derechos Reservados | Santo Domingo,
+                    <script>document.write(new Date().getFullYear())</script>
+                </p>
+            </footer>
+        </section>
+
+</body>
+
+</html>

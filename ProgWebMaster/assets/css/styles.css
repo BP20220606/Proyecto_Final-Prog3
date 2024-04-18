@@ -1,0 +1,272 @@
+/*Agrupamiento de Selectores para dar estilos a todos aquellos elementos que compartan
+las mismas propiedades con los mismos valores*/
+.FullPage {
+    width: 100%;
+    margin: auto;
+    border-color: #803b3b 3px solid;
+}
+
+body {
+    background: linear-gradient(#171512e8, #868787, #DFE3EE, #F7F7F7, #FFFFFF, #F7F7F7, #DFE3EE, #868787, #171512e8);
+    width: 100%;
+}
+
+.FPCabeza {
+    background-color: #eeeeee;
+}
+
+.FPMenu {
+    background-color: #cde;
+    border-bottom: 3px solid #f66f24;
+}
+
+.FPCuerpo {
+    background-color: #868787;
+}
+
+.FPPie {
+    background-color: #333333;
+}
+
+
+#Cabecera,
+#Cuerpo,
+#Pie,
+#Menu {
+
+    min-width: 1080px;
+    max-width: 85%;
+    margin: auto;
+    box-sizing: border-box;
+
+}
+
+/*Selector Tipo ID: Solo para elementos Unicos*/
+#Cabecera {
+    color: white;
+    background: #171512e8;
+    height: 130px;
+    padding-left: 4px;
+    margin-bottom: 0px;
+}
+
+
+#Logo {
+    max-width: 65px;
+    min-width: 65px;
+    height: fit-content;
+    float: left;
+    margin-left: 10px;
+
+}
+
+#Menu {
+    background: #8B9DC3;
+    height: 35px;
+}
+
+#Menu ul {
+    padding-left: 42.5%;
+
+}
+
+#Menu ul li {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 4px;
+}
+a:hover {
+    background-color: #555;
+}
+
+
+#Contenido,
+#Panel,
+#Panelcss,
+#Panelhtml,
+#Paneljs,
+#Panellogin,
+#Panelregistro,
+#Panelcontacto {
+    padding: 10px;
+    box-sizing: border-box;
+    height: 650px;
+}
+
+#Contenido {
+    color: black;
+    background: #DFE3EE;
+    min-width: 70%;
+    max-width: 70%;
+    min-height: 450px;
+    display: inline-table;
+    border-left: #cccdcd 1px solid;
+    float: right;
+    margin-bottom: 10px;
+
+
+}
+
+
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+#Panel {
+    background: #506fb3;
+    min-width: 29%;
+    max-width: 29%;
+    min-height: 450px;
+    display: inline-table;
+    float: left;
+    margin-bottom: 10px;
+
+
+
+}
+
+#Panelcss {
+    background: #00A1F1;
+    min-width: 29%;
+    max-width: 29%;
+    min-height: 450px;
+    display: inline-table;
+    float: left;
+    margin-bottom: 10px;
+
+
+
+}
+
+#Panelhtml {
+    background: #F65314;
+    min-width: 29%;
+    max-width: 29%;
+    min-height: 450px;
+    display: inline-table;
+    float: left;
+    margin-bottom: 10px;
+
+
+
+}
+
+#Paneljs {
+    background: #FFCC00;
+    min-width: 29%;
+    max-width: 29%;
+    min-height: 450px;
+    display: inline-table;
+    float: left;
+    margin-bottom: 10px;
+
+
+
+}
+
+#Panelregistro {
+    background: #578a8c;
+    min-width: 29%;
+    max-width: 29%;
+    min-height: 450px;
+    display: inline-table;
+    float: left;
+    margin-bottom: 10px;
+
+}
+#Panellogin {
+    background: #98f0f3;
+    min-width: 29%;
+    max-width: 29%;
+    min-height: 450px;
+    display: inline-table;
+    float: left;
+    margin-bottom: 10px;
+
+}
+#Panelcontacto {
+    background: #2da0a4;
+    min-width: 29%;
+    max-width: 29%;
+    min-height: 450px;
+    display: inline-table;
+    float: left;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+
+#imagenpanel {
+    width: 80%;
+    height: 80%;
+    float: left;
+    margin: 0%;
+    padding: 10%;
+
+}
+
+#imagenRegistro {
+
+    max-width: 50%;
+    display: flex;
+    height: 75%;
+}
+
+#imagenContacto {
+    width: 60%;
+    height: 60%;
+    float: left;
+    margin: 0%;
+    padding: 15%;
+
+}
+
+#Pie {
+    background: #b2b2b2;
+    min-height: 140px;
+    clear: both;
+    color: #eeeeee;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#formulario {
+    margin-bottom: 20px;
+    display: block;
+    width: fit-content;
+    float: left;
+    width: 50%;
+}
+
+.Campos {
+    display: grid;
+    margin: 10px;
+    width: 90%;
+    height: 50px;
+    font-size: 18px;
+}
+.textBox
+{
+    display: grid;
+    margin: 10px;
+    width: 700px;
+    height: 300px;
+    font-size: 18px;
+}
+.boton {
+    margin: 10px;
+    width: 300px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 0;
+}
